@@ -125,7 +125,7 @@ function playGame(playerMove) {
 
   document.querySelector(
     ".js-moves"
-  ).innerHTML = `You <img src="/img/${playerMove}-emoji.png" class="move-icon"> Computer <img src="/img/${computerMove}-emoji.png" class="move-icon">`;
+  ).innerHTML = `You <img src="img/${playerMove}-emoji.png" class="move-icon"> Computer <img src="img/${computerMove}-emoji.png" class="move-icon">`;
 }
 
 function updateScoreElement() {
